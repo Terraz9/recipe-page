@@ -2,6 +2,8 @@
 
 ![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
 
+Uno dos tres cuatro cinco
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -33,10 +35,7 @@ We also include variable and static font files for the required fonts for this p
 There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
 ## Building your project
-
-seis siete ocho nueve diez
-
-
+cien doscientos trescientos
 Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
 
 1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).

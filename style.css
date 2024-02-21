@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+:root {
+    /* colors */
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+    
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    line-height: inherit;
+    background-color:var(--eggshell);
+    display: grid;
+    place-items: center;
+}
+
+
+/* Semantic division */
+/* Main white backgrund */
+main {
+    background-color: var(--white);
+    border-radius: 2%;
+    margin: 2rem;
+    width: 50rem;
+}
+
+article {
+    margin: 2rem;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+.introduction {
+    margin-top: 1rem;
+}
+
+
+/* titles */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 1.7rem;
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+}
+
+/* text color */
+
+p, li, caption, th{
+    color: var(--wenge-brown);
+    font-weight: normal;
+}
+
+/* lists styling default */
+li {
+    list-style-position:inside;
+    margin-bottom: .5rem;
+}
+
+ol li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+.bold-list{
+    font-weight: bold;
+}
+
+
+/* image */
+
+.omelette-image {
+    border-radius: 2%;
+    width: 100%;
+}
+
+/* preparation time pink backgrund */
+.preparation-time {
+    background-color: var(--rose-white);
+    padding: 1.5rem;
+    border-radius: 3%;
+}
+
+.preparation-time > h3 {
+    color: var(--dark-raspberry);
+    margin-bottom: 1rem;
+}
+
+
+/* Table */
+.nutritional-values {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+tr{
+    text-align: left;
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+th, td {
+ padding: .5rem;
+ border-bottom: 0.1rem solid var(--light-grey);
+}
+
+
+/* Grey division lines */
+hr {
+    margin: 2rem 0rem;;
+    border-top: .1rem solid var(--light-grey);
+}
